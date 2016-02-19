@@ -3,4 +3,8 @@
 echo "What's your name? "
 read name
 
-echo "Hello, $name!"
+if [ "$name" = "cory" ]; then
+  echo "Greetings dear Cory!"
+else
+  echo "Hello, $name!"
+fi
